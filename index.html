@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+        <link rel="stylesheet" href="./font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+        <title>Frontend Mentor | Intro section with dropdown navigation</title>
+        <script src="./js/index.js" defer></script>
+        <script src="./js/jquery.min.js"></script>
+    </head>
+    <body>
+      <header class="header">
+        <nav class="navbar">
+           <img src="./assets/images/logo.svg" class="logo">
+           <div class="div_menu">
+             <ul class="menu">
+                <li class="li_scroll scroll">Features <i class="fa fa-angle-down"></i>
+                    <div class="div_submenu">
+                        <ul class="submenu">
+                            <li class="li_submenu"><img src="./assets/images/icon-todo.svg"> Todo List</li>
+                            <li class="li_submenu"><img src="./assets/images/icon-calendar.svg"> Calendar</li>
+                            <li class="li_submenu"><img src="./assets/images/icon-reminders.svg">  Reminders</li>
+                            <li class="li_submenu"><img src="./assets/images/icon-planning.svg">  Plannig</li>
+                           </ul>
+                    </div>
+                </li>
+                <li class="li_scroll scroll">Company <i class="fa fa-angle-down"></i>
+                    <div class="div_submenu">
+                        <ul class="submenu">
+                            <li class="li_submenu">History</li>
+                            <li class="li_submenu">Our Team</li>
+                            <li class="li_submenu">Blog</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="li_scroll li_submenu">Careers</li>
+                <li class="li_scroll li_submenu">About</li>
+             </ul>
+             <ul class="menu_log">
+                <li class="li_scroll login">Login</li>
+                <li class="li_scroll li_login">Register</li>
+             </ul>
+           </div>
+           <img src="./assets/images/icon-menu.svg" class="img_burger" id="burger">
+           <img src="./assets/images/icon-close-menu.svg" class="img_close" id="close">
+        </nav>
+      </header>
+      <!-- section Hero -->
+      <section class="sect_hero">
+       <div class="div_hero">
+         <h1>Make <br>remote work</h1>
+         <p>Get your team in sync, no matter your location.<br>
+            Streamline processes, create team rituals,and <br>watch productivity soar.
+         </p>
+         <button class="btn">Learn more</button>
+         <div class="div_client">
+            <img src="./assets/images/client-databiz.svg" alt="">
+            <img src="./assets/images/client-audiophile.svg" alt="">
+            <img src="./assets/images/client-meet.svg" alt="">
+            <img src="./assets/images/client-maker.svg" alt="">
+         </div>
+       </div>
+       <img src="./assets/images/image-hero-desktop.png" class="img_hero">
+       <img src="./assets/images/image-hero-mobile.png" class="img_hero1">
+      </section>
+    </body>
+</html>
